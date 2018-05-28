@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+      id="com.hongyun.cordova.plugin.encode"
+      version="1.0.0">
+    <name>CDVEncode</name>
+    <description>Cordova CDVEncode Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,CDVEncode</keywords>
+
+
+    <js-module src="www/Encode.js" name="Encode">
+        <clobbers target="navigator.hongyun.Encode" />
+    </js-module>
+
+	<platform name="android">
+
+        <config-file target="config.xml" parent="/*">
+			<feature name="Encode">
+				<param name="android-package" value="com.hongyun.cordova.plugin.encode.Encode"/>
+				<param name="onload" value="true" />
+			</feature>
+        </config-file>
+
+		<source-file
+				src="src/android/com/hongyun/cordova/plugin/encode/Encode.java"
+				target-dir="src/com/hongyun/cordova/plugin/encode" />
+	</platform>
+
+</plugin>
