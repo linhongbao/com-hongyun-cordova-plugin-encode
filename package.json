@@ -5,7 +5,6 @@
   "cordova": {
     "id": "com.hongyun.cordova.plugin.encode",
     "platforms": [
-      "ios",
       "android"
     ]
   },
