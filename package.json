@@ -1,0 +1,19 @@
+{
+  "name": "com-hongyun-cordova-plugin-encode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhongbao/com-hongyun-cordova-plugin-encode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linhongbao/com-hongyun-cordova-plugin-encode/issues"
+  },
+  "homepage": "https://github.com/linhongbao/com-hongyun-cordova-plugin-encode#readme"
+}
